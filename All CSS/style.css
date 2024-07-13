@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbox {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+}
+
+.box1, .box2, .box3 {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.box1 {
+    background: rgb(9, 235, 95);
+    order: 1;
+}
+
+.box2 {
+    background-color: yellow;
+    order: 3;
+}
+
+.box3 {
+    background-color: tomato;
+    order: 2;
+    align-self: center;
+}
+
+/* Design Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
